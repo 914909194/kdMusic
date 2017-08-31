@@ -1,0 +1,123 @@
+	ul {
+	    padding: 0;
+	    margin: 0;
+	    list-style: none;
+	}
+	
+	.img-container {
+	    width: 100%;
+	   /* height: 500px;*/
+	    padding-top: 100%;
+	    position: relative;
+	    overflow: hidden;
+	    background: #000;
+	 
+	    margin: 0;
+	}
+	
+	.content {
+	    width: 2400px;
+	    height: 100%;	
+	    position: absolute;
+	    top:0;
+	}
+	
+	.content img {
+	 /*   max-width: 100%;*/
+	    height: 100%;
+	    float: left;
+	}
+	.arrows span {
+	    line-height: 50px;
+	    text-align: center;
+	    cursor: pointer;
+	}
+	
+	.arrows span.center {
+	    position: absolute;
+	    width: 50px;
+	    height: 50px;
+	    font-size: 60px;
+	    top: 50%;
+	    margin-top: -25px;
+	    opacity: 0;
+	    transition: all ease 1s;
+	}
+	
+	.arrows.bottom {
+	    position: absolute;
+	    width: 100px;
+	    height: 25px;
+	    bottom: 10px;
+	    left: 20px;
+	}
+	
+	.arrows span.bottom {
+	    width: 20px;
+	    height: 20px;
+	    font-size: 20px;
+	    color: #fff;
+	    line-height: 20px;
+	    text-align: center;
+	    float: left;
+	    background: #000;
+	    margin: 0 10px;
+	    cursor: pointer;
+	    line-height: 20px;
+	}
+	
+	.arrows .prev.center {
+	    left: 10px;
+	}
+	
+	.arrows .prev.center:hover {
+	    opacity: 1;
+	}
+	
+	.arrows .next.center {
+	    right: 10px;
+	}
+	
+	.arrows .next.center:hover {
+	    opacity: 1;
+	}
+	
+	.tab {
+	    position: absolute;
+	}
+	
+	.tab.right {
+	    bottom: 20px;
+	    right: 20px;
+	}
+	
+	.tab.center {
+	    bottom: 20px;
+	    left: 50%;
+	    margin-left: -80px;
+	}
+	
+	.tab li {
+	    float: left;
+	    background: #f00;
+	    margin: 0 10px;
+	    cursor: pointer;
+	}
+	
+	.tab li.right {
+	    width: 20px;
+	    height: 20px;
+	    color: #fff;
+	    line-height: 20px;
+	    text-align: center;
+	}
+	
+	.tab li.center {
+	    width: 10px;
+	    height: 10px;
+	    border-radius: 50%;
+	}
+	
+	.tab li.select {
+	    background: orange;
+	}
